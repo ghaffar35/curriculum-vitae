@@ -57,9 +57,9 @@ h2 {
   margin-top: -10px;
   top: 50%;
   left: -158px;
-  font-size: 0.95em;
   line-height: 20px;
   position: absolute;
+font-style: bold;
 }
 
 .circle {
@@ -146,6 +146,7 @@ label {
   max-height: 200px;
   color: #eee9dc;
   transition: color 0.3s linear 0.3s;
+    font-size: 12px;
 }
 
 /* -------------------------------------
@@ -163,7 +164,7 @@ label {
 
   label {
     width: 85%;
-    font-size: 1.1em;
+    font-size: 2.1em;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -194,7 +195,7 @@ label {
     margin-left: -20px;
   }
   .content p {
-    font-size: 0.9em;
+    font-size: 13px;
     line-height: 1.4;
   }
 

@@ -4,11 +4,11 @@
 }
 
 .partiegauche{
-background-color: darkgray;
+background-color:black;
 }
 
 .partiedroite{
-background-color: darkgray;
+background-color: black;
 }
 
 
@@ -23,11 +23,10 @@ background-color: darkgray;
 body {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 ;
   font-size: 100%;
   font-family: "Noto Sans", sans-serif;
   color: #eee9dc;
-  background: #48b379;
 }
 
 h2 {
@@ -51,7 +50,7 @@ h2 {
   position: relative;
 }
 #timeline p {
-  margin: 0 0 15px;
+  margin: 0 0 5px;
 }
 
 .date {
@@ -78,7 +77,7 @@ h2 {
 
 .content {
   max-height: 20px;
-  padding: 50px 20px 0;
+  padding: 10px 20px 0;
   border-color: transparent;
   border-width: 2px;
   border-style: solid;
@@ -117,11 +116,12 @@ h2 {
 
 label {
   font-size: 1.3em;
-  position: absolute;
+  display: block;
   z-index: 100;
   cursor: pointer;
   top: 20px;
-  transition: transform 0.2s linear;
+  transition: transform 0.6s linear;
+  margin-right: 70px;
 }
 
 .radio {
